@@ -71,12 +71,5 @@
     nbproject/build-impl.xml file. 
 
     -->
-<junit printsummary="yes" haltonfailure="yes">
-    <classpath>
-        <path refid="/var/lib/jenkins/jobs/NetbeansTest/workspace/dist/lib" />
-        <fileset dir="${junit.dir}">
-            <include name="**/junit.jar" />
-        </fileset>
-    </classpath>
-</junit>
+
 </project>
