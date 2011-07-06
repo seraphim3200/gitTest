@@ -75,8 +75,8 @@
  <junit printsummary="yes" haltonfailure="yes">
     <classpath>
   
-            <fileset dir="${junit.dir}"> 
-            <include name="**/junit.jar" />
+            <fileset dir="${basedir}"> 
+            <include name="dist/lib/*.jar" />
         </fileset>
     </classpath>
 </junit>
