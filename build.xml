@@ -73,7 +73,7 @@
     -->
 <junit printsummary="yes" haltonfailure="yes">
     <classpath>
-        <path refid="your.classpath.refid" />
+        <path refid="/var/lib/jenkins/jobs/NetbeansTest/workspace/dist/lib" />
         <fileset dir="${junit.dir}">
             <include name="**/junit.jar" />
         </fileset>
