@@ -71,10 +71,10 @@
     nbproject/build-impl.xml file. 
 
     -->
-
+ <!--      <path refid="dist/lib" /> -->
  <junit printsummary="yes" haltonfailure="yes">
     <classpath>
-   <!--      <path refid="dist/lib" /> -->
+  
             <fileset dir="${junit.dir}"> 
             <include name="**/junit.jar" />
         </fileset>
