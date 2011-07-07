@@ -71,14 +71,6 @@
     nbproject/build-impl.xml file. 
 
     -->
- <!--      <path refid="dist/lib" /> -->
- <junit printsummary="yes" haltonfailure="yes">
-    <classpath>
-  
-            <fileset dir="${basedir}"> 
-            <include name="dist/lib/*.jar" />
-        </fileset>
-    </classpath>
-</junit>
+
 
 </project>
